@@ -1,0 +1,58 @@
+<!--
+  ~ Copyright (c) 2015. 2Lines Software,Inc
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/navigation_drawer_width"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/pal_white"
+    tools:context=".fragment.NavigationDrawerFragment">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_gravity="left"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/TextStyle.Dark"
+                android:textColor="@color/pal_text_color_inverse_hint"
+                android:layout_marginLeft="@dimen/content_margins"
+                android:layout_marginRight="@dimen/content_margins"
+                android:layout_marginTop="@dimen/content_margins_half"
+                android:layout_marginBottom="@dimen/content_margins_half"
+                android:text="@string/navigation_drawer_title"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/pal_lt_grey"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_menu"
+                android:scrollbars="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<resources>
+
+
+    <!-- Base text formats -->
+    <style name="TextStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/pal_text_color</item>
+    </style>
+
+
+    <style name="TextStyle.Dark.Tiny" parent="TextAppearance.AppCompat.Caption">
+    </style>
+
+    <style name="TextStyle.Dark.Bold" parent="TextAppearance.AppCompat.Body2">
+    </style>
+
+    <style name="TextStyle.Dark" parent="TextAppearance.AppCompat.Body1">
+    </style>
+
+    <style name="TextStyle.Dark.Large" parent="TextAppearance.AppCompat.Headline">
+    </style>
+
+    <style name="TextStyle.Dark.XLarge" parent="TextAppearance.AppCompat.Display1">
+    </style>
+
+    <style name="TextStyle.Dark.Huge" parent="TextAppearance.AppCompat.Display2">
+    </style>
+
+</resources>

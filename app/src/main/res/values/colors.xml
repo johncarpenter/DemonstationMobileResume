@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary App Color -->
+    <color name="pal_primary">#78C0A8</color>
+    <color name="pal_primary_dark">#319A8D</color>
+    <color name="pal_color_accent">#F07818</color>
+    <color name="pal_color_accent_dark">#c8600d</color>
+    <color name="pal_text_color_inverse">#FFFFFF</color>
+    <color name="pal_text_color">#000000</color>
+    <color name="pal_text_color_inverse_hint">#999999</color>
+    <color name="pal_background_color">#FCEBB6</color>
+
+    <color name="pal_black">#000000</color>
+    <color name="pal_white">#FFFFFF</color>
+    <color name="pal_lt_grey">#f1f1f1</color>
+
+    <color name="pal_1">#5E412F</color>
+    <color name="pal_2">#FCEBB6</color>
+    <color name="pal_3">#78C0A8</color>
+    <color name="pal_4">#F07818</color>
+    <color name="pal_5">#F0A830</color>
+
+
+</resources>
